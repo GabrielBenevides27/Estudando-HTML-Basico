@@ -57,7 +57,36 @@ target="_blank">Link Curso GNY = Se torna seu link Visivel
 Img clicavel = <a href="https://gyncursos.com.br/course/curso-de-word-2016/"> <img src="/cursoGnyHtml/img/Teste.png" alt="TextoAlternativo" width="200" height="100"></a>
 
 
+Tabelas
+Para criar uma tabela utiliza a tag table exemplo:
+<table>
+    <caption> Cadastro de clientes</caption>
+</table>
 
+Uma tabela e constituinda por tag e linha e para isso utilizanmos a tag abaixo:
+tr = linha
+th = titulo 
+td = conteudo
+<table>
+    <caption> Cadastro de clientes</caption>
 
+    <tr>
+        <th>Nome:</th>
+        <th>Email:</th>
+        <th>Telefone</th>
+    </tr>
 
+    <tr>
+        <td>Gabriel</td>
+        <td>gabrieljorge0027@gmail.com</td>
+        <td>(31 98260-3399)</td>
+    </tr>
 
+ 
+</table>
+colspan="" = Ocupar o total de colunas que eu desejar
+rowspan="" = Ocupar o quanto de linhas eu desejar
+colgroup: Serve para mim formatar a coluna
+thead = Cabeçalho
+tbody = corpo 
+tfoot = Rodape

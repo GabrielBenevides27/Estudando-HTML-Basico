@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Estudando-HTML-Basico/css/style.css">
     <title>FirtProject</title>
 </head>
 <body>
@@ -35,16 +36,62 @@
 </dl>
 
 <h2>Colocando img</h2>
-<img src="/cursoGnyHtml/img/Teste.png" title="Teste" alt="TextoAlternativo" width="200" height="100">
+<img src="/Estudando-HTML-Basico/img/Teste.png" title="Teste" alt="TextoAlternativo" width="200" height="100">
 
 <h2>Colocando outro página dentro da nossa "Iframe"</h2>
-<iframe src="/Formulario/Index.html" frameborder="0"></iframe>
+<iframe src="https://gyncursos.com.br/course/curso-de-word-2016/" frameborder="0" width="400" height="400"></iframe>
 
 <h2>Colocando um link no site</h2>
 <a href="https://gyncursos.com.br/course/curso-de-word-2016/" target="_blank">Link Curso GNY</a>
 
 <h2>colocando uma img clicavel</h2>
-<a href="https://gyncursos.com.br/course/curso-de-word-2016/"> <img src="/cursoGnyHtml/img/Teste.png" alt="TextoAlternativo" width="200" height="100"></a>
+<a href="https://gyncursos.com.br/course/curso-de-word-2016/"> <img src="/Estudando-HTML-Basico/img/Teste.png" alt="TextoAlternativo" width="200" height="100"></a>
 
+<h2>Tabela</h2>
+<table>
+    <caption><h3>Cadastro de clientes</h3></caption>
+
+    <colgroup>
+    <col class="Nome">
+    <col class=" Email">
+    <col class="Telefone">
+    <col class="Cargo">
+    </colgroup>
+
+    <thead>
+        <tr>
+            <th>Nome:</th>
+            <th>Email:</th>
+            <th>Telefone</th>
+            <th>Cargo</th>
+            </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Gabriel</td>
+            <td>gabrieljorge0027@gmail.com</td>
+            <td>(31 98260-3399)</td>
+            <td rowspan="3">Desenvolvedor Web</td>
+        </tr>
+
+        <tr>
+            <td>Lucas</td>
+            <td>lucas.p@gmail.com</td>
+            <td>(31 98260-8899)</td>
+            </tr>
+        <tr>
+            <td>Junior</td>
+            <td>junior.pereira@gmail.com</td>
+            <td>(31 98450-8899)</td>
+            </tr>
+    </tbody> 
+
+    <tfoot>
+        <tr>
+            <td colspan="4">Total 2</td>
+        </tr>
+    </tfoot>
+</table>
 </body>  
 </html>
