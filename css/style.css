@@ -4,3 +4,6 @@ th, td {padding:7px}
 .Email{background-color: aqua;}
 .Telefone{background-color: blueviolet;}
 .Cargo{background-color: antiquewhite;}
+
+div {background-color: #ccc; padding: 20px;}
+span {background-color: red;}

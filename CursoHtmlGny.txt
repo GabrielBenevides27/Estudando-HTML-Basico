@@ -90,3 +90,30 @@ colgroup: Serve para mim formatar a coluna
 thead = Cabeçalho
 tbody = corpo 
 tfoot = Rodape
+
+
+O que é uma DIV:
+Uma div é tipo um bloco que serve para colocar outros arquivos HTML exemplo: 
+<div>
+        <h1>Aprendendo o que é DIV</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipiscing. </p>
+</div>
+Span= serve para modificar uma parte esecifica que se encontra dentro dela
+
+Para adicionar um comentario no codigo utilizamos <!--
+
+Meta: são descrições que utilizamos no inicio do codigo no head
+<meta name="description" content="Curso de desenvolvimento"
+<meta name="keywords" content="HTML5, CSS3">
+<meta name="author" content="Gabriel Benevides"
+Essa meta serve para atualizar a pagina no tempo que você determina
+<meta http-equiv="refresh" content=""10
+
+
+Para inserir Audio utilizamos:
+<audio controls>
+        <source src="caminho"type="audio/mpeg">
+</audio>
+controls + autoplay = executar arquivo automatico no iniciar da página
+controls + autoplay + loop = audio fica repetindo 
+
