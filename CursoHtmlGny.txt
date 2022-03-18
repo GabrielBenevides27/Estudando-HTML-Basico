@@ -1,0 +1,63 @@
+<h1>Título</h1>
+<h2>Título</h2>
+<h3>Título</h3>
+<h4>Título</h4>
+<h5>Título</h5>
+
+
+Lista ordenada começa com ol por exemplo: 
+<ol>
+    <li>Facebook</li>
+    <li>Instagram</li>
+    <li>Twiter</li>
+</ol>
+
+
+Lista não ordenada começa com ul por exemplo:
+<ul>
+    <li>Facebook</li>
+    <li>Instagram</li>
+    <li>Twiter</li>
+</ul> 
+
+
+Lista de descrição começa com dl por exemplo: 
+<dl>
+    <dt>Facebook</dt>
+    <dd>Facebook é uma rede social muito utilizada no mundo</dd>
+    <dt>Instagram</dt>
+    <dd>Instagram é rede social que está crecendo muito</dd>
+    <dt>Twiter</dt>
+    <dd>Twiter é outra rede social</dd>
+</dl>
+
+
+Descrição e feito pela tag dd exemplo do resultado:
+Facebook
+	Facebook é uma rede social muito utilizada no mundo
+Instagram
+	Instagram é rede social que está crecendo muito
+Twiter
+	Twiter é outra rede social
+
+
+Como colocar Img: 
+<img src="Caminho" title="" alt="Texto alternativo">
+width="" = largura
+height="" = altura
+
+
+Como serve para incorpora outra pagina.
+<iframe src="Caminho/Endereço" frameborder="0"></iframe>
+
+
+O que é Link: são pontos clicaveis dentro da página exemplo:
+<a href="https://gyncursos.com.br/course/curso-de-word-2016/" target="_blank">Link Curso GNY</a>
+target="_blank">Link Curso GNY = Se torna seu link Visivel
+Img clicavel = <a href="https://gyncursos.com.br/course/curso-de-word-2016/"> <img src="/cursoGnyHtml/img/Teste.png" alt="TextoAlternativo" width="200" height="100"></a>
+
+
+
+
+
+
