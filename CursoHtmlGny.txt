@@ -9,7 +9,7 @@ Lista ordenada começa com ol por exemplo:
 <ol>
     <li>Facebook</li>
     <li>Instagram</li>
-    <li>Twiter</li>
+    <li>Twitter</li>
 </ol>
 
 
@@ -17,7 +17,7 @@ Lista não ordenada começa com ul por exemplo:
 <ul>
     <li>Facebook</li>
     <li>Instagram</li>
-    <li>Twiter</li>
+    <li>Twitter</li>
 </ul> 
 
 
@@ -26,9 +26,9 @@ Lista de descrição começa com dl por exemplo:
     <dt>Facebook</dt>
     <dd>Facebook é uma rede social muito utilizada no mundo</dd>
     <dt>Instagram</dt>
-    <dd>Instagram é rede social que está crecendo muito</dd>
-    <dt>Twiter</dt>
-    <dd>Twiter é outra rede social</dd>
+    <dd>Instagram é rede social que está crescendo muito</dd>
+    <dt>Twitter</dt>
+    <dd>Twitter é outra rede social</dd>
 </dl>
 
 
@@ -36,9 +36,9 @@ Descrição e feito pela tag dd exemplo do resultado:
 Facebook
 	Facebook é uma rede social muito utilizada no mundo
 Instagram
-	Instagram é rede social que está crecendo muito
-Twiter
-	Twiter é outra rede social
+	Instagram é rede social que está crescendo muito
+Twitter
+	Twitter é outra rede social
 
 
 Como colocar Img: 
@@ -47,14 +47,14 @@ width="" = largura
 height="" = altura
 
 
-Como serve para incorpora outra pagina.
+Como serve para incorpora outra página.
 <iframe src="Caminho/Endereço" frameborder="0"></iframe>
 
 
-O que é Link: são pontos clicaveis dentro da página exemplo:
+O que é Link: são pontos clicáveis dentro da página exemplo:
 <a href="https://gyncursos.com.br/course/curso-de-word-2016/" target="_blank">Link Curso GNY</a>
 target="_blank">Link Curso GNY = Se torna seu link Visivel
-Img clicavel = <a href="https://gyncursos.com.br/course/curso-de-word-2016/"> <img src="/cursoGnyHtml/img/Teste.png" alt="TextoAlternativo" width="200" height="100"></a>
+Img como click= <a href="https://gyncursos.com.br/course/curso-de-word-2016/"> <img src="/cursoGnyHtml/img/Teste.png" alt="TextoAlternativo" width="200" height="100"></a>
 
 
 Tabelas
@@ -63,10 +63,10 @@ Para criar uma tabela utiliza a tag table exemplo:
     <caption> Cadastro de clientes</caption>
 </table>
 
-Uma tabela e constituinda por tag e linha e para isso utilizanmos a tag abaixo:
+Uma tabela e constituída por tag e linha e para isso utilizamos a tag abaixo:
 tr = linha
 th = titulo 
-td = conteudo
+td = conteúdo
 <table>
     <caption> Cadastro de clientes</caption>
 
@@ -86,10 +86,10 @@ td = conteudo
 </table>
 colspan="" = Ocupar o total de colunas que eu desejar
 rowspan="" = Ocupar o quanto de linhas eu desejar
-colgroup: Serve para mim formatar a coluna
+colgroup: Serve para eu formatar a coluna
 thead = Cabeçalho
 tbody = corpo 
-tfoot = Rodape
+tfoot = Rodapé
 
 
 O que é uma DIV:
@@ -98,22 +98,21 @@ Uma div é tipo um bloco que serve para colocar outros arquivos HTML exemplo:
         <h1>Aprendendo o que é DIV</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipiscing. </p>
 </div>
-Span= serve para modificar uma parte esecifica que se encontra dentro dela
+Span= serve para modificar uma parte específica que se encontra dentro dela
 
-Para adicionar um comentario no codigo utilizamos <!--
+Para adicionar um comentário no código utilizamos <!--
 
-Meta: são descrições que utilizamos no inicio do codigo no head
+Meta: são descrições que utilizamos no início do código no head
 <meta name="description" content="Curso de desenvolvimento"
 <meta name="keywords" content="HTML5, CSS3">
 <meta name="author" content="Gabriel Benevides"
-Essa meta serve para atualizar a pagina no tempo que você determina
+Essa meta serve para atualizar a página no tempo que você determina
 <meta http-equiv="refresh" content=""10
 
 
-Para inserir Audio utilizamos:
+Para inserir Áudio utilizamos:
 <audio controls>
         <source src="caminho"type="audio/mpeg">
 </audio>
-controls + autoplay = executar arquivo automatico no iniciar da página
-controls + autoplay + loop = audio fica repetindo 
-
+controls + autoplay = executar arquivo automático no iniciar da página
+controls + autoplay + loop = áudio fica repetindo
