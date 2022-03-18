@@ -8,7 +8,7 @@
     <title>FirtProject</title>
     
 </head>
-<body>
+<track>
 
 <h1>CursoHtmlGny</h1>
 
@@ -19,7 +19,7 @@
     <li>Twiter</li>
 </ul>
 
-<h2>Lista não ordenada</h2>
+<h2>Lista ordenada</h2>
 <ol>
     <li>Facebook</li>
     <li>Instagram</li>
@@ -45,7 +45,7 @@
 <h2>Colocando um link no site</h2>
 <a href="https://gyncursos.com.br/course/curso-de-word-2016/" target="_blank">Link Curso GNY</a>
 
-<h2>colocando uma img clicavel</h2>
+<h2>Colocando uma img clicavel</h2>
 <a href="https://gyncursos.com.br/course/curso-de-word-2016/"> <img src="/Estudando-HTML-Basico/img/Teste.png" alt="TextoAlternativo" width="200" height="100"></a>
 
 <h2>Tabela</h2>
@@ -102,10 +102,28 @@
 
     <!--Teste comentario-->
 
+    <h2>Colocando audio</h2>
     <audio controls>
-        <source src="/Estudando-HTML-Basico/som/0002997.mp3"type="audio/mpeg">
+        <source src="/Estudando-HTML-Basico/som_video/0002997.mp3"type="audio/mpeg">
     </audio>
 
+    <h2>Colocando Video</h2>
+    <video controls width="300px" height="300px">>
+        <source src="/Estudando-HTML-Basico/som_video/video.mp4"type="video/mp4">
+        <track kind="subtitles" srclang="pt-br" label="PT-BR" src="/Estudando-HTML-Basico/som_video/Legendas.vtt"></track>
+    </video>
+
+    <h2>Realizando um pequeno formulário</h2>
+    <form action="Cadastro.php" method="POST">
+        <fieldset>
+        <legend>Informações Pessoais</legend>
+            Nome:<br>
+            <input type="text" name="nome" required autofocus><br>
+            Senha:<br>
+            <input type="password" name="senha"><br>
+            <input type="submit" name="btn-enviar" value="Enviar">
+        </fieldset>
+    </form>
 
 </body>  
 </html>

@@ -116,3 +116,39 @@ Para inserir Áudio utilizamos:
 </audio>
 controls + autoplay = executar arquivo automático no iniciar da página
 controls + autoplay + loop = áudio fica repetindo
+
+
+Como inserir Vídeos: 
+ <video controls width="500px" height="500px">
+        <source src="/Estudando-HTML-Basico/som_video/video.mp4"type="video/mp4">
+    </video>
+controls + autoplay = executar arquivo automático no iniciar da página
+controls + autoplay + loop = áudio fica repetindo
+
+Como inserir Legenda nos vídeos:
+<track kind="subtitles" srclang="pt-br" label="PT-BR" src="/Estudando-HTML-Basico/som_video/Legendas.vtt"></track>
+E necessário criar um arquivo vtt onde tem o tempo de cada fala.
+
+Como fazer um Formulário: 
+Methhod
+GET: enviar as informações pela Url 
+POST: Enviar as informações encapsuladas sem que o usuário veja
+<form action="Cadastro.php" method="POST">
+        <fieldset>
+        <legend>Informações Pessoais</legend>
+            Nome:<br>
+            <input type="text" name="nome"><br>
+            Senha:<br>
+            <input type="password" name="senha"><br>
+            <input type="submit" name="btn-enviar" value="Enviar">
+        </fieldset>
+    </form>
+Fieldset: serve para forma linha envolta do formulário
+Legend: serve para colocar Título no Fieldset
+Para deixar um campo obrigatório apenas adicionar required exemplo:
+<input type="text" name="nome" required><br>
+Para colocar um focus apenas adicionar atributo autofocus exemplo:
+<input type="text" name="nome" required autofocus><br>
+Para deixar um campo desabilitado adicionamos o disabled exemplo:
+<input type="text" name="nome" required autofocus disabled><br>
+
