@@ -133,6 +133,7 @@ Como fazer um Formulário:
 Methhod
 GET: enviar as informações pela Url 
 POST: Enviar as informações encapsuladas sem que o usuário veja
+
 <form action="Cadastro.php" method="POST">
         <fieldset>
         <legend>Informações Pessoais</legend>
@@ -143,12 +144,101 @@ POST: Enviar as informações encapsuladas sem que o usuário veja
             <input type="submit" name="btn-enviar" value="Enviar">
         </fieldset>
     </form>
+
 Fieldset: serve para forma linha envolta do formulário
+
 Legend: serve para colocar Título no Fieldset
+
 Para deixar um campo obrigatório apenas adicionar required exemplo:
 <input type="text" name="nome" required><br>
+
 Para colocar um focus apenas adicionar atributo autofocus exemplo:
 <input type="text" name="nome" required autofocus><br>
+
 Para deixar um campo desabilitado adicionamos o disabled exemplo:
 <input type="text" name="nome" required autofocus disabled><br>
 
+Para limitar o número de caractere que utilizamos em um campo utilizamos o maxlength="Numero" exemplo:
+<input type="text" name="nome" required autofocus maxlength="5"><br>
+
+Radio e serve para o usuário escolher uma dentre outras opções exemplo:
+<input type="radio" name="time" value="cruzeiro">Cruzeiro<br>
+<input type="radio" name="time" value="atletico">Atletico<br>
+<input type="radio" name="time" value="america">America<br>
+
+checkbox o usuário pode escolher quantas opção desejar exemplo: 
+<input type="checkbox" name="cores" value="azul">Azul<br>
+<input type="checkbox" name="cores" value="verde">Verde<br>
+<input type="checkbox" name="cores" value="amarelo">Amarelo<br>
+
+Para definir um padrão basta adicionar o checked exemplo:
+<input type="radio" name="time" value="cruzeiro" checked>Cruzeiro<br>
+
+Para colocar um campo para números podemos utilizar o type number exemplo:
+<input type="number" name="quantidade" min="0" max="20">
+
+Para utilizar um slide para informa o valor utilizamos o type range.
+
+Para adicionar um campo para o usuário escolher uma cor utilizamos o type Color.
+
+Para colocar algumas opções para completar automático utilizamos autocomplete="on" =ligado "off" Desligado.
+
+Para colocar um texto dentro do input utilizamos o placeholder exemplo:
+<input type="text" name="nome" required autofocus placeholder="Informe seu Nome"><br>
+
+Para carregar algum tipo de arquivo utilizamos o type file.
+
+Para colocar algum site utilizamos o type URL.
+
+Para colocar um campo do tipo pesquisa utilizamos o search.
+
+Para adicionar um telefone utilizamos o Type Tel.
+
+Para adicionar uma Data Utilizamos type date.
+
+Para adicionar hora usamos o type time.
+
+Para adicionar o mês é o ano usamos o type month.
+
+Para adicionar semana utilizamos type week.
+
+Para adicionar data e hora utilizamos type datetime-local.
+
+Para adicionar um campo de texto utilizamos o textarea exemplo:
+<textarea name="mensagem" id="" cols="30" rows="10"></textarea>
+rows = linhas
+cols = colunas
+spellcheck="false" = desligar o corretor automático
+
+Para criar um botão utilizamos o button exemplo:
+ <button type="button">Assinar</button>
+
+Para criar uma Seleção utilizamos o select e para separar por grupos utilizamos o optgroup exemplo:
+Escolha seu veículo:<br><br>
+<select name="veiculo" id="">
+                <optgroup label="Carros">
+                    <option value="Fusca">Fusca</option>
+                    <option value="chevete">Chevete</option>
+                </optgroup>
+
+                <optgroup label="Motos">
+                    <option value="Fan-125">Fan-125</option>
+                    <option value="Fan-160">Fan-160</option>
+                </optgroup>
+Para deixar um como padrão no select utilizamos o selected.
+
+Podemos criar uma lista pre definida utilizando input datalist exemplo:
+Escolha um curso: <br>
+            <input type="Cursos" list="lista-cursos">
+            <datalist id="lista-cursos">
+                <option value="HTML5"></option>
+                <option value="CSS3"></option>
+                <option value="PHP"></option>
+            </datalist><br><br>
+
+Para destacar uma parte do texto utilizamos o mark.
+
+Para editar dentro da página HMLT utilizamos o contenteditable.
+
+
+                       
