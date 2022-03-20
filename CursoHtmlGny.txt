@@ -236,9 +236,38 @@ Escolha um curso: <br>
                 <option value="PHP"></option>
             </datalist><br><br>
 
+
+
 Para destacar uma parte do texto utilizamos o mark.
 
 Para editar dentro da página HMLT utilizamos o contenteditable.
+
+Para colocar a ordem do tab utilizamos o tabindex e para colocar letra de atalho para acessar algun link utilizamos o accesskey.
+
+Para exibir detalhes de algun conteudo utilizamos o details e summar por exemplo:
+<details>
+        <summary>Curso de HMTL5</summary>
+        <ul>
+            <li>01 - Introdução a linguagem</li>
+            <li>02 - Tags</li>
+            <li>03 - Exemplo pratico</li>
+        </ul>
+ </details>
+
+Para incorpora um arquivo dentro do nosso site por exemplo um PDF utilizamos a tag object.
+
+Hgroup serve para agrupar determinado conteudo.
+
+Para colocar uma Legenda em IMG podemos utilizar a tag figure exemplo:
+<figure>
+        <img src="/Estudando-HTML-Basico/img/Teste.png" alt="Teste" width="200" height="100">
+        <figcaption>Testando legenda</figcaption>
+    </figure>
+
+Para colocar data e hora utilizamos a tag time por exemplo:
+Escrito por Gabriel Benevides - <time datetime="2022-03-20 16:06">20 de Março de 2022</time>
+
+
 
 
                        
